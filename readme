@@ -1,0 +1,27 @@
+## QS Bar ##
+
+This is a simple top bar for Quickshell.
+Based on Tony btw's bar.
+
+Usage:
+
+---
+git clone https://github.com/rivethorn/qs-bar
+cd qs-bar
+mkdir ~/.config/quickshell
+cp shell.qml ~/.config/quickshell/
+---
+
+Then you can either run:
+
+---
+quickshell
+---
+
+for quick testing, and you can add:
+
+---
+hl.exec_cmd("quickshell")
+---
+
+to your Hyprland config.
